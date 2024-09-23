@@ -14,7 +14,7 @@ To get started with Ethix-MD-V2, follow these steps:
 
 Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-<a href='https://github.com/Ethix-Xsid/Ethix-MD-V2/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+<a href='https://github.com/Devenlee350/Ethix-MD-V2/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
 ### 2. Get Session ID via Pair Code
 
@@ -67,7 +67,7 @@ You can also deploy the bot directly on your Android device using Termux. Hereâ€
    Clone the forked repository using the following command:
 
    ```bash
-   git clone https://github.com/Ethix-Xsid/Ethix-MD-V2.git
+   git clone https://github.com/Devenlee350/Ethix-MD-V2.git
    ```
 
 4. **Navigate to the Project Directory:**
@@ -126,12 +126,12 @@ You can also deploy the bot directly on your Android device using Termux. Hereâ€
 
 Stay connected with the latest updates and community by joining our official WhatsApp group and channel. You can also contact the owner directly.
 
-- **Owner WhatsApp Number:** +919142294671
+- **Owner WhatsApp Number:** +263784562833
   - *Note:* Please save the owner's number in your contacts before sending a message.
 
-- **WhatsApp Channel:** [Join Here](https://whatsapp.com/channel/0029VaWJMi3GehEE9e1YsI1S)
+- **WhatsApp Channel:** [Join Here](https://whatsapp.com/channel/0029VafbajGDuMRoRlel7k1p)
 
-- **WhatsApp Group:** [Join Here](https://chat.whatsapp.com/E3PWxdvLc7ZCp1ExOCkEGp)
+- **WhatsApp Group:** [Join Here](https://chat.whatsapp.com/BsM8ZJcqPaIH2gK4OJbJBN)
 - 
 - **Donate:** [Buy Me A Coffee](buymeacoffee.com/ethixbhai)
 
