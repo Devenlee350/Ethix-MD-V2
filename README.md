@@ -122,6 +122,8 @@ You can also deploy the bot directly on your Android device using Termux. Here‚Ä
 
    Make sure to keep Termux open to maintain the bot's operation.
 
+  * [![Node.js CI](https://github.com/Devenlee350/Ethix-MD-V2/actions/workflows/deploy.yml/badge.svg)](https://github.com/Devenlee350/Ethix-MD-V2/actions/workflows/deploy.yml)
+
 ## üåê Join WhatsApp Group, Channel, and Contact the Owner
 
 Stay connected with the latest updates and community by joining our official WhatsApp group and channel. You can also contact the owner directly.
