@@ -26,12 +26,12 @@ const alive = async (m, Matrix) => {
     image.print(font, x, y, timeString, width, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
     const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
     
-    const uptimeMessage = `*❆𝙽𝙾𝚅𝙰 ᵛ1❆ uptime status*
+    const uptimeMessage = `*🤖 ETHIX-MD Status Overview*
 _________________________________________
 
-*🗓️ ${days} Day(s)*
-*🕐 ${hours} Hour(s)*
-*⏰ ${minutes} Minute(s)*
+*📆 ${days} Day(s)*
+*🕰️ ${hours} Hour(s)*
+*⏳ ${minutes} Minute(s)*
 *⏲️ ${seconds} Second(s)*
 _________________________________________
 `;
@@ -65,7 +65,7 @@ _________________________________________
               text: uptimeMessage
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "*© pσwєrєd 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚃𝙴𝙲𝙷 𝚆𝙾𝚁𝙻𝙳*"
+              text: "© pσwєrєd вч 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚆𝙾𝚁𝙻𝙳"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({ image: buffer }, { upload: Matrix.waUploadToServer })),
@@ -82,8 +82,8 @@ _________________________________________
               forwardingScore: 999,
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363321386877609@newsletter',
-                newsletterName: "𝑵𝑶𝑽𝑨",
+                newsletterJid: '120363249960769123@newsletter',
+                newsletterName: "Ethix-MD",
                 serverMessageId: 143
               }
             }
