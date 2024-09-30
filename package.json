@@ -1,15 +1,15 @@
 {
-  "name": "NOVA",
+  "name": "Ethix-md",
   "version": "10.8.1",
   "description": "NOVA latest multi device whatsapp bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name NOVA",
-    "stop": "pm2 stop NOVA",
-    "restart": "pm2 restart NOVA"
+    "start": "pm2 start index.js --deep-monitoring --attach --name ETHIX-MD",
+    "stop": "pm2 stop ETHIX-MD",
+    "restart": "pm2 restart ETHIX-MD"
   },
-  "keywords": ["nova", "whatsapp-bot", "whatsapp md bot"],
+  "keywords": ["ethix-md", "whatsapp-bot", "whatsapp md bot"],
   "author": "Devenlee350",
   "license": "ISC",
   "dependencies": {
