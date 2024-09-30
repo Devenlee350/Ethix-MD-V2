@@ -7,12 +7,12 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
   if (cmd === 'restart') {
     try {
-      m.reply('Proses....')
+      m.reply('nσvα prσcєssíng....')
      await process.exit()
     } catch (error) {
       console.error(error);
       await m.React("❌");
-      return m.reply(`An error occurred while restarting the bot: ${error.message}`);
+      return m.reply(`An error occurred while restarting the nσvα bot: ${error.message}`);
     }
   }
 };
