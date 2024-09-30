@@ -95,8 +95,8 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("😃 NOVA is connected Successful️ ✅"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `😃 NOVA is connected Successful️ and now running✅` });
+                    console.log(chalk.green("😃 Integration Successful️ ✅"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `😃 Integration Successful️ ✅` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
