@@ -76,14 +76,14 @@ async function start() {
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["NOVA", "safari", "3.3"],
+            browser: ["ETHIX-MD", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
                     const msg = await store.loadMessage(key.remoteJid, key.id);
                     return msg.message || undefined;
                 }
-                return { conversation: "NOVA whatsapp user bot" };
+                return { conversation: "ETHIX-MD whatsapp user bot" };
             }
         });
 
