@@ -14,7 +14,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     if (!text) return m.reply(`Hello *_${m.pushName}_,*\n Here's Example Usage: _.lyrics Spectre|Alan Walker._`);
 
     try {
-      await m.React('🕘');
+      await m.React('♻️');
       await m.reply('A moment, *Ethix-MD* is generating your lyrics request...');
 
       if (!text.includes('|')) {
@@ -46,7 +46,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
             name: "cta_url",
             buttonParamsJson: JSON.stringify({
               display_text: "sʜᴏᴡ 💜 ғᴏʀ ᴇᴛʜɪx-ᴍᴅ",
-              url: `https://whatsapp.com/channel/0029VaWJMi3GehEE9e1YsI1S`
+              url: `https://whatsapp.com/channel/0029VafbajGDuMRoRlel7k1p`
             })
           },
           {
@@ -70,7 +70,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
                   text: lyrics
                 }),
                 footer: proto.Message.InteractiveMessage.Footer.create({
-                  text: "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴇᴛʜɪx-ᴍᴅ*"
+                  text: "> *© pσwєrєd вч 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚆𝙾𝚁𝙻𝙳*"
                 }),
                 header: proto.Message.InteractiveMessage.Header.create({
                   title: "",
